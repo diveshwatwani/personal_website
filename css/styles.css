@@ -1,0 +1,114 @@
+/************************** TOP PANEL ********************************/
+.top-panel{
+/*background-color: #30B8C6;*/
+background-color: #0A1775;
+color: #E5EBF9;
+margin-top:0px;
+padding-top: 30px;
+padding-bottom: 10px;
+text-align: center;
+margin-bottom: 0%;
+padding-bottom: 0%;
+margin-left: 0px;
+margin-right: 0px;
+}
+/************************** INTRO SECTION ********************************/
+.intro-section{
+    background-color: #ffffff;
+    padding: 20px;  
+    color: #334443;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+/**************************Name and programmer**************************/
+.name{
+    padding-top: 0px;
+    position: relative;top: 40px;  
+    text-align: center;
+    color: #0A1775;
+}
+.code_gif
+{
+    width: 10%;
+    position: relative;
+    top: 200px;
+    left: 100px;
+
+}
+.computer_gif
+{
+    width:10%;
+    left: 999px;
+    top: 250px;
+    position: relative;
+}
+.bg_image
+{
+    display:block;
+    position: relative;
+    top: -130px;
+    width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    height:1px;
+    width: 5%;
+    color: #0A1775;
+}
+/************************** IMAGE SECTION ********************************/
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h1{
+    margin-top: 0px;
+
+}
+.about_me
+{
+    width:350px;
+    background-color: #0A1775;
+}
+.about_me h2{
+margin-left: 100px;
+font-size: 50px;
+font-family: Indie Flower;
+color: aliceblue;
+}
+.divesh_pic
+{
+    width: 10%;
+    padding-right: 0px;
+    height: auto;
+}
+.content_about_me table{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0px;
+    margin-left: 370px;
+    text-align: justify;
+    margin-top: 0px;
+    background-color: #E5EBF9;
+    color: #0A1775;
+    
+}
+.content_about_me p{
+    font-family: Didact Gothic;
+}
+.school{
+    padding: 5px;
+    border-radius: 15px;
+    color: #FE695C;
+}
+.school_and_college
+{
+    font-family: Catamaran;
+}
