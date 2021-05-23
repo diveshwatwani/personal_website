@@ -112,3 +112,15 @@ color: aliceblue;
 {
     font-family: Catamaran;
 }
+
+.skils-name
+{
+    width:350px;
+    background-color: #0A1775;
+}
+.skils-name h2{
+    margin-left: 150px;
+    font-size: 50px;
+    font-family: Indie Flower;
+    color: aliceblue;   
+}
