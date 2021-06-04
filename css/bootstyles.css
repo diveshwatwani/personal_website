@@ -70,3 +70,9 @@ padding: 0% 1%;
     padding-bottom: 5px;
     text-align: center;
 }
+.p_icon{
+    color: #005a8d;
+}
+.p_text{
+    color: grey;
+}
