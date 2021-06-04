@@ -33,13 +33,13 @@ padding: 0% 1%;
 }
 
 
-h1{
+#home h1{
     font-family: "Signika";
     font-size: 4rem;
     line-height:1.5;
     
 }
-p
+#home p
 {
     font-size: 1.5rem;
 }
@@ -61,4 +61,12 @@ p
     font-family: "Cinzel Decorative";
     font-size: 3rem;
     font-weight: bolder;
+}
+.Qualities_Design
+{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
 }
