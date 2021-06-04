@@ -1,0 +1,64 @@
+
+body{
+    font-family: "Signika";
+}
+#home{
+    /* background-color: #ff4c68; */
+    background-color: #005a8d;
+    
+}
+#home h1{
+    color: #faf1e6;
+}
+#home button
+{
+    margin-top: 5%;
+    margin-right: 4%;
+}
+#home img
+{
+    margin-left: 50px;
+    border-radius: 10px;
+    /* transform: rotate(5deg); */
+}
+.container-fluid{
+    padding: 2% 8%;
+}
+.navbar_d{
+padding: 0% 1%;
+}
+.navbar-light
+{
+    color:#faf1e6 ;
+}
+
+
+h1{
+    font-family: "Signika";
+    font-size: 4rem;
+    line-height:1.5;
+    
+}
+p
+{
+    font-size: 1.5rem;
+}
+/* Navbar Design */
+.nav-link{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+.navbar
+{
+    padding: 0%;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.navbar-brand
+{
+    font-family: "Cinzel Decorative";
+    font-size: 3rem;
+    font-weight: bolder;
+}
