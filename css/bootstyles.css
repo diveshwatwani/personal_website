@@ -76,6 +76,11 @@ padding: 0% 1%;
 {
     padding: 0 18px;
 }
+.quality-design
+{
+    font-size: 1.5rem;
+}
+
 .navbar-brand
 {
     font-family: "Cinzel Decorative";
@@ -90,13 +95,15 @@ padding: 0% 1%;
     padding-bottom: 5px;
     text-align: center;
 }
+.Qualities_Design:hover {
+    transform: scale(1.1);
+  }
 .p_icon{
     color: #7298ad;
     
 }
 .p_icon:hover{
     color: #005a8d;
-    ;
 }
 .p_text{
     color: grey;
