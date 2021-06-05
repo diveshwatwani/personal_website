@@ -71,7 +71,12 @@ padding: 0% 1%;
     text-align: center;
 }
 .p_icon{
+    color: #7298ad;
+    
+}
+.p_icon:hover{
     color: #005a8d;
+    ;
 }
 .p_text{
     color: grey;
