@@ -31,6 +31,17 @@ padding: 0% 1%;
 {
     color:#faf1e6 ;
 }
+.navbar-brand:hover {
+    transform: scale(1.1);
+  }
+.nav-item:hover {
+    transform: scale(1.1);
+    border-bottom: #faf1e6 1px solid;
+    transition: .5s;
+  }
+.bt-design:hover {
+    transform: scale(1.1);
+  }
 
 
 #home h1{
