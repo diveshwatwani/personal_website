@@ -21,6 +21,15 @@ body{
     border-radius: 10px;
     /* transform: rotate(5deg); */
 }
+#home img:hover:before {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px #faf1e6;
+}
+#home img:hover {
+    color: #faf1e6;
+    box-shadow: 0 0 15px #faf1e6;
+    text-shadow: 0 0 15px #faf1e6;
+  }
 .container-fluid{
     padding: 2% 8%;
 }
