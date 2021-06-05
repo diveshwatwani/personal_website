@@ -19,6 +19,7 @@ body{
 {
     margin-left: 50px;
     border-radius: 10px;
+    margin-bottom: 55px;
     /* transform: rotate(5deg); */
 }
 #home img:hover:before {
@@ -78,7 +79,7 @@ padding: 0% 1%;
 }
 .quality-design
 {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .navbar-brand
@@ -91,8 +92,8 @@ padding: 0% 1%;
 {
     padding-left: 35px;
     padding-right: 35px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top:85px;
+    padding-bottom:85px;
     text-align: center;
 }
 .Qualities_Design:hover {
@@ -107,4 +108,58 @@ padding: 0% 1%;
 }
 .p_text{
     color: grey;
+    font-size: 1.1rem;
+}
+
+/* Testimonials Section */
+#Testimonials
+{
+    padding: 7% 10%;
+    background-color: #0a81ab;
+    color: #fff;
+    text-align: center;
+}
+#Testimonials h3{
+    font-size: 2rem;
+    line-height: 2;
+    padding: 2px;
+}
+.projects
+{
+    color: #ff7b54;
+}
+.testimonial-img
+{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#Companies
+{
+    background-color: #0a81ab;
+    color: #fff;
+    padding: 2% 10%;
+    margin-top: 0%;
+    text-align: center;
+}
+.company-logo
+{
+    width: 20%;
+    padding: 20px;
+    margin: 2px;
+    
+}
+.company-logo:hover
+{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.company-p{ 
+    
+    /* background-color: #faf1e6; */
+    width: fit-content;
+    padding: 2px;
+    border-radius: 3px; 
+    font-size: 2rem;
+    color: #FFF;
 }
