@@ -142,6 +142,10 @@ padding: 0% 1%;
     padding-left:25px;
     padding-right: 25px;
 }
+.carousel-item
+{
+    padding: 2% 5%;
+}
 
 @media only screen and (max-width: 600px){
     #Testimonials
