@@ -410,3 +410,32 @@ padding: 0% 1%;
         0%   { width: 5%; background-color: #ffb26b;}
         100% { width: 80%; background-color: #ff7b54; }
       }
+/* #############-CONACT-############# */
+
+#contact
+{
+    background-color: #fff;
+    margin: 2% 2%;
+    padding: 5% 10%;
+}
+#contact h3{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: Lato;
+    font-weight: bold;
+    /* color:#232323; */
+    color: #005a80;
+}
+#contact p{
+    font-size:1.5rem;
+    line-height: 1;
+}
+.icons-social
+{
+    padding: 1%;
+    margin: 0%;
+}
+.design
+{
+    margin-top: 20%;
+}
