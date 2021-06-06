@@ -111,22 +111,21 @@ padding: 0% 1%;
     font-size: 1.1rem;
 }
 
-/* Testimonials Section */
-#Testimonials
+/* Testimonials Section For PC */
+
+#Testimonials  
 {
-    padding: 7% 10%;
+    padding: 7% 8%;
     background-color: #0a81ab;
     color: #fff;
     text-align: center;
 }
+
 #Testimonials h3{
     font-size: 2rem;
     line-height: 2;
-    padding: 2px;
-}
-.projects
-{
-    color: #ff7b54;
+    padding: 5px;
+
 }
 .testimonial-img
 {
@@ -134,20 +133,73 @@ padding: 0% 1%;
     border-radius: 100%;
     margin: 20px;
 }
+.div-design-testimonial
+{
+    padding-left:25px;
+    padding-right: 25px;
+}
+
+@media only screen and (max-width: 600px){
+    #Testimonials
+    {
+        padding-top: 25%;
+        padding-bottom: 20%;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-color: #0a81ab;
+        color: #fff;
+        text-align: center;
+        margin: 0%;
+    }
+    #Testimonials h3{
+        font-size: 1.2rem;
+        line-height: 2;
+        padding: 1px;
+    }
+    .testimonial-img
+    {
+        width: 10%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+    .div-design-testimonial
+    {
+        padding-left:1px;padding-right: 1px;
+    }
+}
+
+.projects
+{
+    color: #ff7b54;
+}
+
+
+/* ##########COMPANIES############ */
 #Companies
 {
     background-color: #0a81ab;
     color: #fff;
-    padding: 2% 10%;
+    padding: 5% 5%;
     margin-top: 0%;
     text-align: center;
 }
 .company-logo
 {
+    
     width: 20%;
     padding: 20px;
     margin: 2px;
     
+}
+@media only screen and (max-width: 600px)
+{
+    .company-logo
+    {
+    
+        width: 40%;
+        padding: 20px;
+        margin: 2px;
+    }
 }
 .company-logo:hover
 {
