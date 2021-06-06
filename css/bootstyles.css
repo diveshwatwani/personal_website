@@ -96,15 +96,17 @@ padding: 0% 1%;
     padding-bottom:85px;
     text-align: center;
 }
-.Qualities_Design:hover {
-    transform: scale(1.1);
-  }
 .p_icon{
-    color: #7298ad;
+    color: #005a80;
     
 }
-.p_icon:hover{
-    color: #005a8d;
+.Qualities_Design:hover {
+    transform: scale(1.1);
+    
+  }
+
+/* .p_icon:hover{
+    color: #005a8d; */
 }
 .p_text{
     color: grey;
@@ -116,7 +118,7 @@ padding: 0% 1%;
 #Testimonials  
 {
     padding: 7% 8%;
-    background-color: #0a81ab;
+    background-color: #005a8d;
     color: #fff;
     text-align: center;
 }
@@ -154,7 +156,7 @@ padding: 0% 1%;
         padding-bottom: 20%;
         padding-left: 0px;
         padding-right: 0px;
-        background-color: #0a81ab;
+        background-color: #005a8d;
         color: #fff;
         text-align: center;
         margin: 0%;
@@ -190,7 +192,7 @@ padding: 0% 1%;
 /* ##########COMPANIES############ */
 #Companies
 {
-    background-color: #0a81ab;
+    background-color: #005a8d;
     color: #fff;
     padding: 5% 5%;
     margin-top: 0%;
@@ -223,7 +225,7 @@ padding: 0% 1%;
     
     /* background-color: #faf1e6; */
     width: fit-content;
-    padding: 2px;
+    padding-left: 10%;
     border-radius: 3px; 
     font-size: 2rem;
     color: #FFF;
@@ -250,9 +252,161 @@ padding: 0% 1%;
     color: #005a8d;
     
 }
-.card:hover
+#study-section .card:hover
 {
     transform: scale(1.1);
     transition: .5s;
 }
 /* ############_STUDY_SECTION_############ */
+
+/* ############_SKILLS_SECTION_############ */
+#Skills
+{
+    background-color: #0a81ab;
+    color: #faf1e6;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+#Skills h3
+{
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 1px;
+}
+#Skills .card
+{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* #############Progress-Bar_1-html############# */
+.progress-bar2 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved .progress-bar2 {
+    width: 85%; 
+    background-color: #005a8d;  
+    animation: progressAnimation 6s;
+  }
+  
+  @keyframes progressAnimation {
+    0%   { width: 5%; background-color: #0a81ab;}
+    100% { width: 85%; background-color: #005a8d; }
+  }
+  
+/* #############Progress-Bar_2-CSS############# */
+.progress-bar3 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved3 .progress-bar3 {
+    width: 65%; 
+    background-color: #ff7b54;  
+    animation: progressAnimation3 6s;
+  }
+  
+  @keyframes progressAnimation3 {
+    0%   { width: 5%; background-color: #ffb26b;}
+    100% { width: 65%; background-color: #ff7b54; }
+  }
+  /* #############Progress-Bar_3-Photoshop############# */
+
+  .progress-bar4 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved4 .progress-bar4 {
+    width: 75%; 
+    background-color: #005a8d;  
+    animation: progressAnimation4 6s;
+  }
+  
+  @keyframes progressAnimation4 {
+    0%   { width: 5%; background-color: #0a81ab;}
+    100% { width: 75%; background-color: #005a8d; }
+  }
+
+  /* #############Progress-Bar_4-Priemum Pro############# */
+
+  .progress-bar5 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved5 .progress-bar5 {
+    width: 60%; 
+    background-color: #ff7b54;  
+    animation: progressAnimation5 6s;
+  }
+  
+  @keyframes progressAnimation5 {
+    0%   { width: 5%; background-color: #ffb26b;}
+    100% { width: 60%; background-color: #ff7b54; }
+  }
+   /* #############Progress-Bar_4- Java ############# */
+
+   .progress-bar6 {
+    height: 18px;
+    border-radius: 30px;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    transition: 0.4s linear;  
+    transition-property: width, background-color;    
+  }
+  
+  .progress-moved6 .progress-bar6 {
+    width: 70%; 
+    background-color: #005a8d;  
+    animation: progressAnimation6 6s;
+  }
+  
+  @keyframes progressAnimation6 {
+    0%   { width: 5%; background-color: #0a81ab;}
+    100% { width: 70%; background-color: #005a8d; }
+  }
+     /* #############Progress-Bar_4- Android ############# */
+
+     .progress-bar7 {
+        height: 18px;
+        border-radius: 30px;
+        background-image: 
+          linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+        transition: 0.4s linear;  
+        transition-property: width, background-color;    
+      }
+      
+      .progress-moved7 .progress-bar7 {
+        width: 80%; 
+        background-color: #ff7b54;  
+        animation: progressAnimation7 6s;
+      }
+      
+      @keyframes progressAnimation7 {
+        0%   { width: 5%; background-color: #ffb26b;}
+        100% { width: 80%; background-color: #ff7b54; }
+      }
