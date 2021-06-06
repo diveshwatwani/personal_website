@@ -130,7 +130,11 @@ padding: 0% 1%;
 .testimonial-img
 {
     width: 15%;
-    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-img-web
+{
+    width: 10%;
     margin: 20px;
 }
 .div-design-testimonial
@@ -159,7 +163,11 @@ padding: 0% 1%;
     .testimonial-img
     {
         width: 10%;
-        border-radius: 100%;
+        margin: 20px;
+    }
+    .testimonial-img-web
+    {
+        width: 8%;
         margin: 20px;
     }
     .div-design-testimonial
@@ -167,6 +175,7 @@ padding: 0% 1%;
         padding-left:1px;padding-right: 1px;
     }
 }
+
 
 .projects
 {
