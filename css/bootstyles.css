@@ -415,8 +415,9 @@ padding: 0% 1%;
 #contact
 {
     background-color: #fff;
-    margin: 2% 2%;
-    padding: 5% 10%;
+    margin: 2% 2% 0%;
+    padding: 5% 10% 0%;
+    
 }
 #contact h3{
     font-size: 3rem;
@@ -434,8 +435,55 @@ padding: 0% 1%;
 {
     padding: 1%;
     margin: 0%;
+    color: black;
+}
+a:design{
+  text-decoration: none;
 }
 .design
 {
-    margin-top: 20%;
+    margin-top: 25%;
+    margin-bottom: 0%;
+    padding-bottom: 0px;
+}
+.fotter
+{
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 25px;
+  background-color: #005a80;
+}
+@media only screen and (max-width: 600px)
+{
+  #contact h3
+  {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: Lato;
+    font-weight: bold;
+
+  }
+  #contact
+  {
+    background-color: #fff;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 35px;  
+  }
+  .phone-copyright
+  {
+    font-size: 1rem;
+    margin-top:3px;
+    padding-top:6px ;
+  }
+  .icons-social
+{
+    padding: 2%;
+    margin: 0%;
+    color: black;
+}
 }
